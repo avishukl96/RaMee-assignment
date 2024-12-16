@@ -1,0 +1,70 @@
+.App {
+  font-family: Arial, sans-serif;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+input {
+  margin: 10px 0;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+}
+
+button {
+  padding: 10px;
+  font-size: 16px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+button {
+  background-color: red;
+  border: none;
+  color: white;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: darkred;
+}
+
+button:nth-child(2) {
+  background-color: #ffa500;
+}
+
+button:nth-child(2):hover {
+  background-color: darkorange;
+}
